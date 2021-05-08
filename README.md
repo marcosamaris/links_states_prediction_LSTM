@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 # Efficient Prediction of Region-wide Traffic States in Public Bus Networks using LSTMs
 
 
 Public bus systems are impacted by many factors, such as varying traffic conditions, passenger demand, and weather changes. One can combine all those factors that affect bus travel times into a single factor called link state, where a link represents part of a bus route. Several works exist that predict single link states using different statistical and machine learning approaches. More recently, deep learning techniques, such as LSTMs, started to be used to predict the state of entire bus routes. The main problem with this approach is that it uses extensive computational resources.
 
 In this work, we evaluate the use of LSTMs to predict the state of entire city regions instead of single routes. It has two advantages: (i) the state of each link is evaluated only once for all the bus routes that cross it, and (ii) information from buses from all routes can be used to determine future link states. Using a shallow bidirectional LSTM architecture produced accurate state predictions with an average MAPE of $12.5$. Moreover, we show that it can be trained daily and used to predict link states in real-time for a large metropolis, like São Paulo.
+=======
+# Comparison of LSTM Techniques to Predict Link Travel Time in São Paulo City
+
+Link travel time predictions are very useful for people who take decisions in urban transport. Bus systems are impacted by many factors, such as dynamically varying traffic, passenger demand, weather conditions and cultural and sports events.  Nowadays, researchers have done effort to implant big data and machine learning techniques to improve services in big cities such as urban mobility. Deep learning techniques arisen in the last decade and they brought a large variety of techniques to be applied in smart city problems. LSTM in a recurrent neural network which have been used to predict future state in time series. In this work, We used historical data to generate the link states and compare the train process efficiency and prediction accuracy of (5) different architectures of LSTM. We also proposed a big data model based on geographical areas which could be implanted in São Paulo City with an optimum trade-off between efficiency and accuracy. Results show that LSTM-Bidirectional can be used to predict whole the links of São Paulo city obtaining the best trade-off of efficiency and accuracy.
+>>>>>>> e1bf398c69b300cfb30a873c4776a391e1f39ad5
